@@ -1198,7 +1198,7 @@ function startSession() {
   state.startedAt = null;
 
   document.getElementById('badgeMode').textContent =
-    state.mode === 'learn' ? 'Nauka' : state.mode === 'exam' ? 'Egzamin' : 'Powtórka błędów';
+    state.mode === 'learn' ? 'Nauka' : state.mode === 'exam' ? 'Egzamin' : 'Popraw Błędy';
   document.getElementById('badgeScore').textContent = 'Wynik: 0';
 
   const store = getStore();
