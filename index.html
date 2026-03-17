@@ -1107,7 +1107,7 @@ function updateStartButtonLabel(){
   const btn = document.getElementById('startBtn');
   if(!btn) return;
   if(state.mode === 'exam') btn.textContent = 'Rozpocznij Egzamin';
-  else if(state.mode === 'wrong') btn.textContent = 'Powtórz błędy';
+  else if(state.mode === 'wrong') btn.textContent = 'Popraw błędy';
   else btn.textContent = 'Rozpocznij';
 }
 function setMode(mode) {
